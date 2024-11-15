@@ -34,6 +34,7 @@ Le /16 représente le masque de sous-réseau de 255.255.0.0.
 Ce qui signifie que la partie réseau de l'adresse IP 10.11.80.2 va couvrir les deux premiers octets (10.11), et les deux derniers octets (80.2) seront utilisés pour adresser des hôtes dans ce réseau.
 Le réseau 10.11.0.0/16 pourrait donc contenir des adresses IP allant de 10.11.0.1 à 10.11.255.254 (ce qui donne 65 536 adresses possibles pour les hôtes).
 
-
+**Q.3.5 Pour ce même ordinateur, que représente l'adresse 10.10.255.254 ?**
+L'adresse 10.10.255.254 appartient au réseau 10.10.0.0/16 donc pas le même réseau que le PC2. 
 
 
