@@ -16,3 +16,11 @@ Faire un clic droit sur me menu "Démarrer puis cliquer sur Connexions Réseaux 
 On doit avoir la copie d'écran d'un ping fonctionnel.
 
 ![Ceci est un exemple d’image](Checkpoint2-Q1.1.png)
+
+
+````
+Q.3.1 Quel est le matériel réseau A ? Le matériel réseau A est un switch.
+Quel est son rôle sur ce schéma vis-à-vis des ordinateurs ?
+Le rôle du switch est de recevoir du routeur du réseau B des données sous forme de paquets et de 
+déterminer où ces paquets doivent être envoyés en fonction des adresses MAC des ordinateurs de manière intelligente et efficace tout en réduisant les collisions.
+```
