@@ -8,7 +8,9 @@ Nouvelle adresse ip du client : 172.16.10.50
 
 
 Explique ce que tu as fait et montre le par des copies d'écran.
+Faire un clic droit sur me menu "Démarrer puis cliquer sur Connexions Réseaux ensuite sur Centre de réseaux et de partage
 ![Ceci est un exemple d’image](Checkpoint2-Q1.1bis.png)
 
 On doit avoir la copie d'écran d'un ping fonctionnel.
+
 ![Ceci est un exemple d’image](Checkpoint2-Q1.1.png)
