@@ -24,3 +24,12 @@ Quel est son rôle sur ce schéma vis-à-vis des ordinateurs ?
 Le rôle du switch est de recevoir du routeur du réseau B des données sous forme de paquets et de 
 déterminer où ces paquets doivent être envoyés en fonction des adresses MAC des ordinateurs de manière intelligente et efficace tout en réduisant les collisions.
 ```
+
+```
+Q.3.2 Quel est le matériel réseau B ? Le matériel du réseau B est un routeur.
+Quel est son rôle pour le réseau 10.10.0.0/16 ?
+
+Q.3.3 Que signifie f0/0 et g1/0 sur l’élément B ?
+- f0/0 signifie que c'est l'interface physique FastEthernet qui fonctionne à une vitesse de 100 Mbps (avec le 0 en numéro de slot et le second 0 en numéro de l'interface.) 
+- g1/0 signifie que c'est l'interface physique GigaEthernet de type Gigabit Ethernet qui fonctionne à une vitesse de 1Gbps (avec le 1 en numéro de slot et le second 0 en numéro de l'interface.)  
+```
