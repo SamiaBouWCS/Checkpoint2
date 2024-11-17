@@ -1,10 +1,10 @@
-###○ Exercice 2 : Débogage de script PowerShel
+### Exercice 2 : Débogage de script PowerShel
 ##### Question 2   
 
 Dans la définition de $Users : 
 `$Users = Import-Csv -Path $CsvFile -Delimiter ";" -Header "prenom","nom","societe","fonction","service","description","mail","mobile","scriptPath","telephoneNumber" -Encoding UTF8  | Select-Object -Skip 2`  
 
-Modifier Select-Object `-Skip 2` par `-Skip 1` afin qu'il ne skipe que l'entête et non l'entête + la deuxième ligne qui est le premier utilisateur.  
+Modifier **Select-Object** `-Skip 2` par **`-Skip 1`** afin qu'il ne skipe que l'entête et non l'entête + la deuxième ligne qui est le premier utilisateur.  
 
 ##### Question 3 
 Dans la partie $UserInfo ajouter un champ Description:
@@ -12,7 +12,7 @@ Dans la partie $UserInfo ajouter un champ Description:
   $UserInfo = @{
             Name                 = "$Prenom.$Nom"
             FullName             = "$Prenom.$Nom"
-	    Description          = $Description
+	    **Description          = $Description**
 	Password             = $Password
             AccountNeverExpires  = $true
             PasswordNeverExpires = $false
@@ -38,7 +38,7 @@ Ajouter une ligne Log avec le PathFile déjà définis plus haut dans $LogFile e
 
 ##### Question 7  
 
-Ajouter à la fin du scrip :  
+Ajouter à la fin du script :  
 ```
 Else {
 	Write-Host "L'utilisateur $Name existe deja"
