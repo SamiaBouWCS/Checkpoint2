@@ -86,9 +86,8 @@ C'est une réponse de la passerelle du routeur dans le réseau local. La ping a 
 pour chercher un potentiel 10.11.80.2 mais le routeur ne connaissant pas la route vers cette adresse IP lui a répondu que la destination n'était pas atteignable.
 
 **Q.3.20 Quels ont été les rôles des matériels A et B ?**
-Le rôle du switch  est de transmettre les paquets dans un même réseau ce qui n'est pas le cas. Donc il n'a eu aucun rôle
-Le rôle du routeur est de transmettre des les paquets entre différents réseau. Il a donc tenté de le faire mais ne connaissait pas de chemin vers le réseau 
-10.11.0.0.16.
+Le rôle du switch  est de transmettre les paquets dans un même réseau ce qui n'est pas le cas. Donc il n'a eu aucun rôle.
+Le rôle du routeur est de transmettre les paquets entre différents réseau. Il a donc tenté sans même connaitre le chemin vers le réseau 10.11.0.0.16.
 
 
 
