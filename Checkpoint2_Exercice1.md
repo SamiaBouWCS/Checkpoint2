@@ -20,3 +20,4 @@ Faire un clic droit sur le menu "Démarrer puis cliquer sur Connexions Réseaux 
 
 **Q.1.2 Ping entre les 2 machines qui fonctionne avec le nom**
 
+![Ceci est un exemple d’image](Checkpoint2-Q2.ModifHOST.png)
