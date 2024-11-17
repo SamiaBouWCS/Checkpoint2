@@ -29,3 +29,6 @@ Le client récupère l'adresse 172.16.10.20, correspondant à la première adres
 
 ![Ceci est un exemple d’image](Checkpoint2-Q3-DHCP.png)
 
+**Q.1.4 Réservation Adresse IP**
+
+![Ceci est un exemple d’image](Checkpoint2-Q4-ReservationAdressIP.png)
