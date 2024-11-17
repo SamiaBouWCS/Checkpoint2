@@ -89,6 +89,18 @@ pour chercher un potentiel 10.11.80.2 mais le routeur ne connaissant pas la rout
 Le rôle du switch  est de transmettre les paquets dans un même réseau ce qui n'est pas le cas. Donc il n'a eu aucun rôle.
 Le rôle du routeur est de transmettre les paquets entre différents réseau. Il a donc tenté sans même connaitre le chemin vers le réseau 10.11.0.0.16.
 
+**Fichier 3 :**
 
+**Q.3.21 Dans cette trame, donne les noms et les adresses IP des matériels sources et destination.**
+Le PC4 : 10.10.4.2 
+172.16.5.253 : Interface du deuxième routeur R2 
+
+**Q.3.22 Quelles sont les adresses mac source et destination ? Qu'en déduis-tu ?**
+
+CA:01:DA:D2:00:1C  : MAC de l'interface du router r1 dans le réseau 10.12.2.0/24  
+CA:03:9E:EF:00:38  : MAC de l'interface du router r2 dans le réseau 10.12.2.0/24  
+
+**Q.3.23 A quel emplacement du réseau a été enregistré cette communication ?**
+Cette communication a été enregistrée sur le routeur R1.
 
 
