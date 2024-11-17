@@ -1,3 +1,5 @@
+## Exercice 3 : Vérification d'une infrastructure réseau 
+
 ### b- Découverte du réseau
 **Q.3.1 Quel est le matériel réseau A ?** Le matériel réseau A est un switch.
 **Quel est son rôle sur ce schéma vis-à-vis des ordinateurs ?**
