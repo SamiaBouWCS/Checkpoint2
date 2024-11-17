@@ -77,3 +77,19 @@ Celui qui initialise la communication est le PC3 ayant pour adresse ip 10.10.80.
 
 **Q.3.17 Quel est le protocole encapsulé ? Quel est son rôle ?**
 Le protocole encapsulé est une requête ping. Son rôle est d'attendre une réponse afin de vérifier si l'hôte interrogé est joignable.
+
+**Q.3.18 Est-ce que cette communication a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.**
+La communication n'a pas réussie. La cible est dans un autre réseau logique même si physiquement c'est le même réseau.
+
+**Q.3.19 Explique la ligne du paquet N° 2**
+C'est une réponse de la passerelle du routeur dans le réseau local. La ping a tenté par défaut de sortir par cette passerelle 
+pour chercher un potentiel 10.11.80.2 mais le routeur ne connaissant pas la route vers cette adresse IP lui a répondu que la destination n'était pas atteignable.
+
+**Q.3.20 Quels ont été les rôles des matériels A et B ?**
+Le rôle du switch  est de transmettre les paquets dans un même réseau ce qui n'est pas le cas. Donc il n'a eu aucun rôle
+Le rôle du routeur est de transmettre des les paquets entre différents réseau. Il a donc tenté de le faire mais ne connaissait pas de chemin vers le réseau 
+10.11.0.0.16.
+
+
+
+
