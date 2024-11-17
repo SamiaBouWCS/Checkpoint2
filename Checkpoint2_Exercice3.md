@@ -59,3 +59,19 @@ Le request et le reply correspondent aux informations dans le tableau ci-dessous
 | :--- | :----: | :----: |
 | MAC |  00:50:79:66:68:00  | 00:50:79:66:68:03  |
 | IP | 10.10.4.1  | 10.10.4.2  |
+
+**Q.3.14 Dans le paquet N°2, quel est le protocole encapsulé ? Quel est son rôle ?**
+Dans le paquet n°2 le protocole encapsulé est le protocole ARP. Son rôle est de résoudre des IP à des adresses MACS 
+
+**Q.3.15 Quels ont été les rôles des matériels A et B dans cette communication ?**
+
+Le matériel B n'a pas de rôle.
+Le matériel A diffuse la requête ARP sur tous le réseau, puis redirige la réponse de PC4 vers PC1
+
+**Fichier 2 :**
+
+**Q.3.16 Dans cette trame, qui initialise la communication ? Donne l'adresse IP ainsi que le nom du matériel.**
+Celui qui initialise la communication est le PC3 ayant pour adresse ip 10.10.80.3.
+
+**Q.3.17 Quel est le protocole encapsulé ? Quel est son rôle ?**
+Le protocole encapsulé est une requête ping. Son rôle est d'attendre une réponse afin de vérifier si l'hôte interrogé est joignable.
