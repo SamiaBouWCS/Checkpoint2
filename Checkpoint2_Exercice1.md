@@ -17,3 +17,6 @@ Faire un clic droit sur le menu "Démarrer puis cliquer sur Connexions Réseaux 
 **Copie d'écran d'un ping fonctionnel.**
 
 ![Ceci est un exemple d’image](Checkpoint2-Q1.1.png)
+
+**Q.1.2 Ping entre les 2 machines qui fonctionne avec le nom**
+
