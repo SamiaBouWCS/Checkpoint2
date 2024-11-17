@@ -1,17 +1,17 @@
 Exercice 2 : Débogage de script PowerShell
 
-### Exercice 2 .
+### Exercice 2
 
 Lien complet du script modifié : [Script](./AddLocalUsers.ps1)
 
-##### Qestion 2   
+##### Question 2   
 
 Dans la définition de $Users : 
 `$Users = Import-Csv -Path $CsvFile -Delimiter ";" -Header "prenom","nom","societe","fonction","service","description","mail","mobile","scriptPath","telephoneNumber" -Encoding UTF8  | Select-Object -Skip 2`  
 
 Modifier Select-Object `-Skip 2` par `-Skip 1` afin qu'il ne skipe que l'entête et non l'entête + la deuxième ligne qui est le premier utilisateur.  
 
-##### QUESTION 3 
+##### Question 3 
 Dans la partie $UserInfo ajouter un champ Description:
 ```  
   $UserInfo = @{
@@ -24,7 +24,7 @@ Dans la partie $UserInfo ajouter un champ Description:
         }
 ```
 
-##### QUESTION 4   
+##### Question 4   
 Les champs utilisés sont nom, prénom, description, fonction.   
 
 Modifier la définition de $Users tel quel :   
