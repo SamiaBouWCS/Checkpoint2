@@ -1,3 +1,4 @@
+### b- Découverte du réseau
 **Q.3.1 Quel est le matériel réseau A ?** Le matériel réseau A est un switch.
 **Quel est son rôle sur ce schéma vis-à-vis des ordinateurs ?**
 Le rôle du switch est de recevoir du routeur du réseau B des données sous forme de paquets et de 
@@ -17,6 +18,8 @@ Le réseau 10.11.0.0/16 pourrait donc contenir des adresses IP allant de 10.11.0
 
 **Q.3.5 Pour ce même ordinateur, que représente l'adresse 10.10.255.254 ?**
 L'adresse 10.10.255.254 appartient au réseau 10.10.0.0/16 donc pas le même réseau que le PC2.
+
+### c- Etude théorique
 
 **Q.3.6 Pour les ordinateurs PC1, PC2, et PC5 donne :**
 L'adresse de réseau, la première adresse disponible, la dernière adresse disponible, l'adresse de diffusion
@@ -40,7 +43,19 @@ Il y aura un changement d'adresse mac mais pas des adresses ip, ils ne pourront 
 **Q.3.10 On souhaite mettre la configuration IP des ordinateurs en dynamique. Quelles sont les modifications possible ?**
 Les modifications possibles sont d'ajouter et paramétrer un serveur DHCP sur le réseau ainsi que  d'activer les adresses ip des ordinateurs en DHCP.
 
-Fichier 1 :
-Q.3.11
+### d. Analyse de trames
+**Fichier 1 :**
+**Q.3.11 Sur le paquet N°5, quelle est l'adresse mac du matériel qui initialise la communication ? Déduis-en le nom du matériel.**
+L'adresse mac du matériel qui initialise la communication est : 00:50:79:66:68:00 correspondant au nom du matériel : PC1.  
 
+**Q.3.12 Est-ce que la communication enregistrée dans cette capture a réussi ? Si oui, indique entre quels matériels, si non indique pourquoi cela n'a pas fonctionné.**
+La communication enregistrée dans cette capture a bien réussi et il s'agit d'un ping entre le PC1 et le PC2. 
 
+**Q.3.13 Dans cette capture, à quel matériel correspond le request et le reply ? Donne le nom, l'adresse IP, et l'adresse mac de chaque materiel.**
+
+Le request et le reply correspondent aux informations dans le tableau ci-dessous : 
+
+| PC | PC1 | PC2 |
+| :--- | :----: | :----: |
+| MAC |  00:50:79:66:68:00  | 00:50:79:66:68:03  |
+| IP | 10.10.4.1  | 10.10.4.2  |
